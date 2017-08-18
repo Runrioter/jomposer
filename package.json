@@ -1,0 +1,20 @@
+{
+  "name": "jomposer",
+  "version": "1.0.0",
+  "description": "Talk to composer via npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Runrioter/jomposer.git"
+  },
+  "keywords": [],
+  "author": "Runrioter <runrioter@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Runrioter/jomposer/issues"
+  },
+  "homepage": "https://github.com/Runrioter/jomposer#readme"
+}
