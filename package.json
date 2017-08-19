@@ -1,6 +1,6 @@
 {
   "name": "jomposer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Talk to composer via npm",
   "main": "index.js",
   "bin": {
