@@ -3,8 +3,12 @@
   "version": "1.0.1",
   "description": "Talk to composer via npm",
   "main": "index.js",
+  "bin": {
+    "jomposer": "bin/jomposer.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node ./index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/Runrioter/jomposer/issues"
   },
-  "homepage": "https://github.com/Runrioter/jomposer#readme"
+  "files": [
+    "bin",
+    "libs",
+    "index.js"
+  ],
+  "homepage": "https://github.com/Runrioter/jomposer#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "urllib": "^2.24.0"
+  }
 }
