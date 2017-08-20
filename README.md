@@ -1,13 +1,17 @@
 # jomposer
 :headphones: Talk to composer via npm
 
+### Requirements
+
+The `php` executable must be available in PATH.
+
 ### Usage
 
-- Install
+#### Install
 
 Run `npm i -D jomposer`
 
-- Add `jomposer` to `package.json` in your project.
+#### Add `jomposer` to `package.json` in your project.
 
 ```diff
  "scripts": {
@@ -16,7 +20,7 @@ Run `npm i -D jomposer`
  },
 ```
 
-- Use npm to run Composer
+#### Use npm to run Composer
 
 Run `npm run jomposer`
 ```
