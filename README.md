@@ -1,11 +1,11 @@
 # jomposer
 :headphones: Talk to composer via npm
 
-### Requirements
+## Requirements
 
 The `php` executable must be available in PATH.
 
-### Usage
+## Usage
 
 #### Install
 
@@ -40,4 +40,4 @@ Composer version 1.5.1 2017-08-09 16:07:22
 Usage:
   command [options] [arguments]
   ...
-  ```
+```
