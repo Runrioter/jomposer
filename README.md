@@ -2,6 +2,9 @@ jomposer
 =======
 :headphones: Talk to composer via npm
 
+Jomposer will install `Composer` automatically.
+Run `Composer` via npm script `jomposer`, so that you can use `npm` to run `Composer` easily.
+
 [![NPM](https://nodei.co/npm/jomposer.png?downloads=true)](https://nodei.co/npm/jomposer/)
 
 ## Requirements
