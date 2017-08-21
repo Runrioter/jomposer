@@ -1,5 +1,8 @@
-# jomposer
+jomposer
+=======
 :headphones: Talk to composer via npm
+
+[![NPM](https://nodei.co/npm/jomposer.png?downloads=true)](https://nodei.co/npm/jomposer/)
 
 ## Requirements
 
