@@ -15,16 +15,18 @@ Run `npm i -D jomposer`
 
 ```diff
  "scripts": {
-   "test": "echo \"Error: no test specified\" && exit 1",
-+  "jomposer": "jomposer -v"
++  "jomposer:version": "jomposer -v",
++  "jomposer": "jomposer",
+   "test": "echo \"Error: no test specified\" && exit 1"
  },
 ```
 
 #### Use npm to run Composer
 
-Run `npm run jomposer`
+Run `npm run jomposer:version`
+
 ```
-➜ npm run jomposer
+➜ npm run jomposer:version
 
 > example@1.0.1 jomposer ***
 > jomposer -v
@@ -41,3 +43,16 @@ Usage:
   command [options] [arguments]
   ...
 ```
+
+#### Install PHP Package
+
+Run `npm run jomposer -- require monolog/monolog`
+
+```
+➜ npm run jomposer -- require monolog/monolog
+
+> example@1.0.1 jomposer ***
+> jomposer "require" "monolog/monolog"
+...
+```
+
