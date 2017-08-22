@@ -15,9 +15,9 @@ The `php` executable must be available in PATH.
 
 #### Install
 
-- Run `npm i -g jomposer` to install as a global cli
+- Run `npm i -g jomposer` to install it as a global cli
 
-- Run `npm i -D jomposer` to install as devDependencies
+- Run `npm i -D jomposer` to install it as `devDependencies`
 
 #### Add `jomposer` to `package.json` in your project.
 
