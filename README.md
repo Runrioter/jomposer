@@ -5,7 +5,7 @@ jomposer
 Jomposer will install `Composer` automatically.
 Run `Composer` via npm script `jomposer`, so that you can use `npm` to run `Composer` easily.
 
-[![NPM](https://nodei.co/npm/jomposer.png?downloads=true)](https://nodei.co/npm/jomposer/)
+[![NPM](https://nodei.co/npm/jomposer.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jomposer/)
 
 ## Requirements
 
@@ -19,22 +19,23 @@ The `php` executable must be available in PATH.
 
 - Run `npm i -D jomposer` to install it as `devDependencies`
 
-#### Add `jomposer` to `package.json` in your project.
+#### Configuration
+
+- Add `jomposer` to `package.json` in your project.
 
 ```diff
  "scripts": {
-+  "jomposer:version": "jomposer -v",
 +  "jomposer": "jomposer",
    "test": "echo \"Error: no test specified\" && exit 1"
  },
 ```
 
-#### Use npm to run Composer
+#### Run Composer
 
-Run `npm run jomposer:version`
+- Run `npm run jomposer -- -v` to see version.
 
 ```
-➜ npm run jomposer:version
+➜ npm run jomposer -- -v
 
 > example@1.0.1 jomposer ***
 > jomposer -v
@@ -52,9 +53,7 @@ Usage:
   ...
 ```
 
-#### Install PHP Package
-
-Run `npm run jomposer -- require monolog/monolog`
+- Run `npm run jomposer -- require monolog/monolog` to install php package.
 
 ```
 ➜ npm run jomposer -- require monolog/monolog
@@ -63,4 +62,3 @@ Run `npm run jomposer -- require monolog/monolog`
 > jomposer "require" "monolog/monolog"
 ...
 ```
-
