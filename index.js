@@ -34,6 +34,7 @@ co(function *() {
         fs.unlinkSync(setUpFile);
       } else if (errMsg) {
         logger.error(errMsg);
+        process.exit(1);
       }
     } catch(err) {
       logger.error(err.message);
