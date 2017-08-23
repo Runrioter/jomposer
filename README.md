@@ -1,11 +1,13 @@
 jomposer
 =======
+
+[![npm](https://img.shields.io/npm/v/jomposer.svg)](https://www.npmjs.com/package/jomposer)
+[![npm](https://img.shields.io/npm/dt/jomposer.svg)](https://www.npmjs.com/package/jomposer)
+
 :headphones: Talk to composer via npm
 
 Jomposer will install `Composer` automatically.
 Run `Composer` via npm script `jomposer`, so that you can use `npm` to run `Composer` easily.
-
-[![NPM](https://nodei.co/npm/jomposer.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/jomposer/)
 
 ## Requirements
 
