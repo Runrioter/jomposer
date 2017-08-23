@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/Runrioter/jomposer.git"
   },
-  "keywords": [],
+  "keywords": ["composer", "npm-composer", "node-composer", "package-manager", "npm"],
   "author": "Runrioter <runrioter@qq.com>",
   "license": "MIT",
   "bugs": {
