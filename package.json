@@ -8,13 +8,20 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint bin lib index.js",
     "install": "node ./index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Runrioter/jomposer.git"
   },
-  "keywords": ["composer", "npm-composer", "node-composer", "package-manager", "npm"],
+  "keywords": [
+    "composer",
+    "npm-composer",
+    "node-composer",
+    "package-manager",
+    "npm"
+  ],
   "author": "Runrioter <runrioter@qq.com>",
   "license": "MIT",
   "bugs": {
@@ -30,5 +37,12 @@
     "co": "^4.6.0",
     "colors": "^1.1.2",
     "urllib": "^2.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-egg": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=7.6"
   }
 }
