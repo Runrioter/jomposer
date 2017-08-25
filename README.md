@@ -4,6 +4,7 @@ jomposer
 [![npm](https://img.shields.io/npm/v/jomposer.svg)](https://www.npmjs.com/package/jomposer)
 [![npm](https://img.shields.io/npm/dt/jomposer.svg)](https://www.npmjs.com/package/jomposer)
 [![node](https://img.shields.io/node/v/jomposer.svg)](https://nodejs.org/download/release/)
+[![dependencies Status](https://david-dm.org/Runrioter/jomposer/status.svg)](https://david-dm.org/Runrioter/jomposer)
 
 :headphones: Talk to composer via npm
 
