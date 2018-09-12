@@ -16,10 +16,6 @@ const output = data => {
   console.log(data.toString());
 };
 
-composer.stdout.on('data', data => {
-  output(data);
-});
+composer.stdout.on('data', output);
 
-composer.stderr.on('data', data => {
-  output(data);
-});
+composer.stderr.on('data', output);
