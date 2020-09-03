@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "eslint": "^4.5.0",
-    "eslint-config-egg": "^5.0.0"
+    "eslint-config-egg": "^8.1.2"
   },
   "engines": {
     "node": ">=7.6"
