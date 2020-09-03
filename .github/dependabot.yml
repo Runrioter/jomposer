@@ -1,0 +1,15 @@
+# Configuration options for dependency updates
+# https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  # Enable version updates for npm
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "09:00"
+    assignees:
+      - "Runrioter"
+    labels:
+      - "dependencies"
